@@ -24,7 +24,7 @@ interface Props {
   userId: string;
 }
 
-function PostEllo({ userId }: Props) {
+function PostThread({ userId }: Props) {
   const router = useRouter();
   const pathname = usePathname();
 
@@ -79,4 +79,4 @@ function PostEllo({ userId }: Props) {
   );
 }
 
-export default PostEllo;
+export default PostThread;

@@ -1,4 +1,4 @@
-import PostEllo from "@/components/forms/PostEllo";
+import PostThread from "@/components/forms/PostThread";
 import { fetchUser } from "@/lib/actions/user.actions";
 import { currentUser } from "@clerk/nextjs";
 import { redirect } from "next/navigation";
@@ -16,7 +16,7 @@ async function Page() {
     <>
       <h1 className='head-text'>Create Thread</h1>
 
-      <PostEllo userId={userInfo._id} />
+      <PostThread userId={userInfo._id} />
     </>
   );
 }
