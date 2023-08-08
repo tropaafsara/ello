@@ -54,7 +54,6 @@ const AccountProfile = ({ user, btnTitle }: Props) => {
     },
   });
 
-  
   const onSubmit = async (values: z.infer<typeof UserValidation>) => {
     const blob = values.profile_photo;
 
@@ -210,7 +209,7 @@ const AccountProfile = ({ user, btnTitle }: Props) => {
           )}
         />
 
-        <Button type='submit' className='bg-primary-500'>
+        <Button type='submit' className='bg-rose-800'>
           {btnTitle}
         </Button>
       </form>

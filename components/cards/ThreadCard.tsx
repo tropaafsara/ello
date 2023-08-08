@@ -152,7 +152,6 @@ function ThreadCard({
           <p className='text-subtle-medium text-gray-1'>
             {formatDateString(createdAt)}
             {community && ` - ${community.name} Community`}
-          
           </p>
 
           <Image
